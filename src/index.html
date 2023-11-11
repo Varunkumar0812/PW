@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Varunkumar R - Portfolio</title>
+
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato&family=Mukta:wght@500&family=REM&family=Roboto+Slab:wght@500&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="text-lg md:flex p-5 h-auto">
+    <div id="sidebar" class="bg-stone-300 md:w-72 lg:w-80 w-full p-5 rounded-t-md md:rounded-none md:rounded-l-md">
+      <div class="h-64 w-full flex justify-center mb-5">
+        <img src="assests/photo.jpg" class="lg:w-4/5 sm:w-64 h-full cover rounded-md shadow-lg" />
+      </div>
+      <div class="h-auto w-full text-center">
+        <div class="text-3xl font-bold mb-2 [text-shadow:_0_2px_5px_rgb(27_27_27_/_30%)]">
+          Varunkumar R
+        </div>
+        <div class="text-base font-semibold mb-5" style="font-family: 'REM', sans-serif">
+          Computer Science Student
+        </div>
+        <div class="text-sm text-justify p-3" style="font-family: 'REM', sans-serif">
+          👋 Hello! Welcome to my profile! I'm Varunkumar R, a highly
+          motivated and passionate Computer Science student with a strong
+          focus on Web Development and a burning desire to explore the
+          fascinating world of Machine Learning.
+        </div>
+        <div class="text-base font-semibold mt-3">
+          <a class="cursor-pointer hover:text-sky-800" href="mailto:varunkumarceg@gmail.com">varunkumarceg@gmail.com</a>
+          <br />
+          <a>+91 89393 00081</a>
+        </div>
+        <div class="w-full mt-5 px-8">
+          <ul class="flex justify-between">
+            <li>
+              <a class="w-6 h-6 hover:cursor-pointer block" href="https://www.linkedin.com/in/varunkumar-r-6252b6240/"
+                style="
+                    background-image: url('assests/linkedin.png');
+                    background-size: contain;
+                  "></a>
+            </li>
+            <li>
+              <a class="w-6 h-6 hover:cursor-pointer block" href="https://github.com/Varunkumar0812" style="
+                    background-image: url('assests/github.png');
+                    background-size: contain;
+                  "></a>
+            </li>
+            <li>
+              <a class="w-6 h-6 hover:cursor-pointer block" href="https://leetcode.com/varunkumarceg/" style="
+                    background-image: url('assests/leetcode.png');
+                    background-size: contain;
+                  "></a>
+            </li>
+            <li>
+              <a class="w-6 h-6 hover:cursor-pointer block"
+                href="https://www.hackerrank.com/profile/varunkumarceg" style="
+                    background-image: url('assests/hackerrank.png');
+                    background-size: contain;
+                  "></a>
+            </li>
+            <li>
+              <a class="w-6 h-6 hover:cursor-pointer block" href="https://www.facebook.com/profile.php?id=100088920824048" style="
+                    background-image: url('assests/facebook.png');
+                    background-size: contain;
+                  "></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="main-container" class="md:w-3/4 w-full bg-sky-500 h-auto max-h-[672px] flex justify-end">
+      <div id="education" class="bg-white w-full h-auto p-10">
+        <div id="title" class="text-3xl font-bold mb-10">Education</div>
+        <div class="w-full">
+          <a onclick="EducationMore(1)"
+            class="bg-zinc-100 cursor-pointer mb-5 block w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
+              style="font-family: 'Roboto slab', sans-serif">
+              M.Sc. Integrated Computer Science
+            </h5>
+            <p class="font-normal text-gray-700" style="font-family: 'REM', sans-serif">
+              Anna University, Chennai, India
+            </p>
+            <div id="edu1" class="hidden pt-4 text-gray-700 text-sm" style="font-family: 'REM', sans-serif">
+              <table class="text-left p-3 text-base align-top">
+                <tr>
+                  <th class="px-3 align-top">Grade (CGPA)</th>
+                  <td class="px-3">9.67 (Upto Semester IV)</td>
+                </tr>
+                <tr>
+                  <th class="px-3 align-top">Relevant Course Works</th>
+                  <td class="px-3">
+                    Data Structures, Object-Oriented Programming, Operating Systems,
+                    Computer Networks, <br />
+                    Data Warehouding and Mining
+                  </td>
+                </tr>
+                <tr>
+                  <th class="px-3 align-top">Other Activities</th>
+                  <td class="px-3">
+                    NSS Volunteer (Campus Cleaning activities) <br />
+                    CTF Coordinator (Coordinated workshops for events)
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </a>
+          <a onclick="EducationMore(2)"
+            class="bg-zinc-100 cursor-pointer mb-5 block w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
+              style="font-family: 'Roboto slab', sans-serif">
+              12th Standard
+            </h5>
+            <p class="font-normal text-gray-700" style="font-family: 'REM', sans-serif">
+              Swaami Vivekanandha School Chennai, India
+            </p>
+            <div id="edu2" class="hidden pt-4 text-gray-700 text-sm" style="font-family: 'REM', sans-serif">
+              <table class="text-left p-3 text-base align-top">
+                <tr>
+                  <th class="px-3 align-top">Grade (Percent)</th>
+                  <td class="px-3">95.1116 %</td>
+                </tr>
+                <tr>
+                  <th class="px-3 align-top">Major subjects</th>
+                  <td class="px-3">
+                    Mathematics (97.06), Chemistry (96.17), Physics (93.60),
+                    Biology (93.31)
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </a>
+          <a onclick="EducationMore(3)"
+            class="bg-zinc-100 cursor-pointer block w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
+              style="font-family: 'Roboto slab', sans-serif">
+              10th Standard
+            </h5>
+            <p class="font-normal text-gray-700" style="font-family: 'REM', sans-serif">
+              Swaami Vivekanandha School Chennai, India
+            </p>
+            <div id="edu3" class="hidden pt-4 text-gray-700 text-sm" style="font-family: 'REM', sans-serif">
+              <table class="text-left p-3 text-base align-top">
+                <tr>
+                  <th class="px-3 align-top">Grade (Percent)</th>
+                  <td class="px-3">94.6 %</td>  
+                </tr>
+                <tr>
+                  <th class="px-3 align-top">Major subjects</th>
+                  <td class="px-3">
+                    Mathematics (98), Science (93), Social Science (98)
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div id="skills" class="bg-white w-full h-auto p-10 hidden">
+        <div id="title" class="text-3xl font-bold mb-8">Skills</div>
+        <div class="text-2xl font-bold mb-8" style="font-family: 'Roboto slab', sans-serif">
+          Languages
+        </div>
+        <div class="flex flex-wrap justify-around" style="font-family: 'REM', sans-serif">
+          <div class="w-5/12 mb-5">
+            <div class="mb-2 font-semibold text-gray-700">Python</div>
+            <div class="rounded-full border border-sky-800 p-1">
+              <div class="flex h-6 items-center justify-center rounded-full bg-sky-500 text-xs leading-none"
+                style="width: 90%; height: 85%">
+                <span class="p-1 text-white">90%</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-5/12 mb-5">
+            <div class="mb-2 font-semibold text-gray-700">Java</div>
+            <div class="rounded-full border border-sky-800 p-1">
+              <div class="flex h-6 items-center justify-center rounded-full bg-sky-500 text-xs leading-none"
+                style="width: 75%; height: 85%">
+                <span class="p-1 text-white">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-5/12 mb-5">
+            <div class="mb-2 font-semibold text-gray-700">JavaScript</div>
+            <div class="rounded-full border border-sky-800 p-1">
+              <div class="flex h-6 items-center justify-center rounded-full bg-sky-500 text-xs leading-none"
+                style="width: 90%; height: 85%">
+                <span class="p-1 text-white">90%</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-5/12 mb-5">
+            <div class="mb-2 font-semibold text-gray-700">HTML / CSS</div>
+            <div class="rounded-full border border-sky-800 p-1">
+              <div class="flex h-6 items-center justify-center rounded-full bg-sky-500 text-xs leading-none"
+                style="width: 95%; height: 85%">
+                <span class="p-1 text-white">95%</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-5/12 mb-5">
+            <div class="mb-2 font-semibold text-gray-700">C++</div>
+            <div class="rounded-full border border-sky-800 p-1">
+              <div class="flex h-6 items-center justify-center rounded-full bg-sky-500 text-xs leading-none"
+                style="width: 80%; height: 85%">
+                <span class="p-1 text-white">80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-5/12 mb-5">
+            <div class="mb-2 font-semibold text-gray-700">C</div>
+            <div class="rounded-full border border-sky-800 p-1">
+              <div class="flex h-6 items-center justify-center rounded-full bg-sky-500 text-xs leading-none"
+                style="width: 80%; height: 85%">
+                <span class="p-1 text-white">80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-2xl font-bold mb-8 mt-4" style="font-family: 'Roboto slab', sans-serif">
+          Tools
+        </div>
+        <div class="flex flex-wrap justify-around" style="font-family: 'REM', sans-serif">
+          <ul class="w-1/4 text-sm font-medium text-gray-900 bg-white border border-gray-300 rounded-lg">
+            <li class="w-full px-4 py-2 border-b border-gray-300 rounded-t-lg hover:bg-sky-200">Visual Code</li>
+            <li class="w-full px-4 py-2 border-b border-gray-300 hover:bg-sky-200">Eclipse</li>
+            <li class="w-full px-4 py-2 border-b border-gray-300 hover:bg-sky-200">PyCharm</li>
+            <li class="w-full px-4 py-2 rounded-b-lg hover:bg-sky-200">Thonny</li>
+          </ul>
+          <ul class="w-1/4 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg">
+            <li class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg hover:bg-sky-200">React Js</li>
+            <li class="w-full px-4 py-2 border-b border-gray-200 hover:bg-sky-200">Node.js</li>
+            <li class="w-full px-4 py-2 border-b border-gray-200 hover:bg-sky-200">JSPs & Servlets</li>
+            <li class="w-full px-4 py-2 rounded-b-lg hover:bg-sky-200">Figma</li>
+          </ul>
+          <ul class="w-1/4 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg">
+            <li class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg hover:bg-sky-200">Boostrap</li>
+            <li class="w-full px-4 py-2 border-b border-gray-200 hover:bg-sky-200">Tailwind CSS</li>
+            <li class="w-full px-4 py-2 border-b border-gray-200 hover:bg-sky-200">jQuery</li>
+            <li class="w-full px-4 py-2 rounded-b-lg hover:bg-sky-200">Linux</li>
+          </ul>
+        </div>
+      </div>
+      <div id="experience" class="bg-white w-full h-auto p-10 hidden">
+        <div id="title" class="text-3xl font-bold mb-8">Experience</div>
+        <div class="py-4 container mx-auto px-5">
+          <div class="relative">
+            <div class="border-r-4 border-black absolute h-full top-0" style="left: 9px"></div>
+            <ul class="list-none m-0 p-0">
+              <li class="mb-5">
+                <div class="flex group items-center">
+                  <div class="bg-gray-800 group-hover:bg-sky-600 z-10 rounded-full border-4 border-black h-5 w-5">
+                    <div class="bg-black h-1 w-6 items-center ml-4 mt-1"></div>
+                  </div>
+                  <div class="flex-1 ml-4 z-10 font-medium">
+                    <div
+                      class="order-1 space-y-2 bg-zinc-200 rounded-lg shadow-only transition-ease lg:w-full px-6 py-4">
+                      <h3 class="mb-3 font-bold text-3xl" style="font-family: 'Roboto Slab', serif">
+                        Web Development Internship
+                      </h3>
+                      <p class="pb-4 text-base" style="font-family: 'REM', serif">
+                        Code Casa
+                      </p>
+                      <hr class="bg-black border border-black" />
+                      <div class="text-sm font-medium leading-snug tracking-wide text-opacity-100"
+                        style="font-family: 'REM', serif">
+                        <div class="font-bold mb-2">Summary :</div>
+                        Online internship focused on web development with
+                        daily assigned tasks and opportunities for skill
+                        acquisition in React Js, HTML, CSS and JavaScript
+                        <div class="font-bold mt-2 mb-2">
+                          Skills Acquired :
+                        </div>
+                        <ul class="list-disc ml-8">
+                          <li>
+                            Proficiency in React Js, utilizing it for creating
+                            dynamic and interactive user interfaces.
+                          </li>
+                          <li>
+                            Developed and styled web pages using HTML, CSS and
+                            JavaScript, ensuring responsive design and
+                            cross-browser opportunity.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="projects" class="bg-white w-full h-auto p-10 hidden">
+        <div id="title" class="text-3xl font-bold mb-8">Projects</div>
+        <div class="container">
+          <div class="flex flex-wrap -mx-1 lg:-mx-4">
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              <!-- Article -->
+              <article class="overflow-hidden rounded-lg shadow-lg">
+                <a href="https://github.com/Varunkumar0812/HireMe_A-Java-Webapp">
+                  <img alt="Placeholder" class="bg-cover w-full h-full md:h-[150px] md:w-[350px]" src="assests/hireme-project.png" />
+                </a>
+
+                <div class="md:h-[150px] flex flex-col justify-between">
+                  <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg font-bold">
+                      <a class="no-underline hover:underline text-black" href="#">
+                      </a>
+                      HireMe - A Java Project
+                    </h1>
+                    
+                    <a class="flex items-center no-underline hover:underline text-sky-700 text-sm hover:text-sky-800"
+                    href="https://github.com/Varunkumar0812/HireMe_A-Java-Webapp">Link
+                  </a>
+                  </header>
+                  <footer class="pb-2">
+                    <div class="pb-2 md:pb-4 px-2 md:px-4 text-sm">
+                      A simple full stack job portal website developed using
+                      primitive Java Web development tools like JSPs and
+                      Servlets.
+                    </div>
+                  </footer>
+                </div>
+              </article>
+              
+            </div>
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              <!-- Article -->
+              <article class="overflow-hidden rounded-lg shadow-lg">
+                <a href="https://github.com/Varunkumar0812/AI-Based-Diabetes-Prediction">
+                  <img alt="Placeholder" class="bg-cover w-full h-full md:h-[150px] md:w-[350px]" src="assests/aibased-project.png" />
+                </a>
+
+                <div class="md:h-[150px] flex flex-col justify-between">
+                  <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg font-bold">
+                      <a class="no-underline hover:underline text-black" href="#">
+                      </a>
+                      AI Based Diabetes Prediction
+                    </h1>
+                    
+                    <a class="flex items-center no-underline hover:underline text-sky-700 text-sm hover:text-sky-800"
+                    href="https://github.com/Varunkumar0812/AI-Based-Diabetes-Prediction">Link
+                  </a>
+                  </header>
+                  <footer class="pb-2">
+                    <div class="pb-2 md:pb-4 px-2 md:px-4 text-sm">
+                      A very basic machine learning model built using primitive python
+                      libraries and tools.
+                    </div>
+                  </footer>
+                </div>
+              </article>
+              
+            </div>
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              <!-- Article -->
+              <article class="overflow-hidden rounded-lg shadow-lg">
+                <a href="https://github.com/Varunkumar0812/ETAX-Consultancy_A-Landing-Page">
+                  <img alt="Placeholder" class="bg-cover w-full h-full md:h-[150px] md:w-[350px]" src="assests/etax-project.png" />
+                </a>
+
+                <div class="md:h-[150px]">
+                  <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg font-bold">
+                      <a class="no-underline hover:underline text-black" href="#">
+                      </a>
+                      ETAX Consultancy - A Landing Page
+                    </h1>
+                    
+                    <a class="flex items-center no-underline hover:underline text-sky-700 text-sm hover:text-sky-800"
+                    href="https://github.com/Varunkumar0812/ETAX-Consultancy_A-Landing-Page">Link
+                  </a>
+                  </header>
+                  <footer class="pb-2">
+                    <div class="pb-2 md:pb-4 px-2 md:px-4 text-sm">
+                      A simple and responsive landing page for a tax consulting corporation.
+                    </div>
+                  </footer>
+
+                </div>
+              </article>
+              
+            </div>
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              <!-- Article -->
+              <article class="overflow-hidden rounded-lg shadow-lg">
+                <a href="https://github.com/Varunkumar0812/Signals---A-Python-Project">
+                  <img alt="Placeholder" class="bg-cover w-full h-full md:h-[150px] md:w-[350px]" src="assests/signals-project.png" />
+                </a>
+
+                <div class="md:h-[150px]">
+                  <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg font-bold">
+                      <a class="no-underline hover:underline text-black" href="#">
+                      </a>
+                      Signals Representations – A Python Project 
+                    </h1>
+                    
+                    <a class="flex items-center no-underline hover:underline text-sky-700 text-sm hover:text-sky-800"
+                    href="https://github.com/Varunkumar0812/Signals---A-Python-Project">Link
+                  </a>
+                  </header>
+                  <footer class="pb-2">
+                    <div class="pb-2 md:pb-4 px-2 md:px-4 text-sm">
+                      A GUI-based Python application to represent operations on signals.
+                    </div>
+                  </footer>
+                </div>
+              </article>
+              
+            </div>
+
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              <!-- Article -->
+              <article class="overflow-hidden rounded-lg shadow-lg">
+                <a href="https://github.com/Varunkumar0812/AU-Department-of-Mathematics">
+                  <img alt="Placeholder" class="bg-cover w-full h-full md:h-[150px] md:w-[350px]" src="assests/dept-project.png" />
+                </a>
+
+                <div class="md:h-[150px]">
+                  <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg font-bold">
+                      <a class="no-underline hover:underline text-black" href="#">
+                      </a>
+                      AU Department of Mathematics - A Clonded Website
+                    </h1>
+                    
+                    <a class="flex items-center no-underline hover:underline text-sky-700 text-sm hover:text-sky-800"
+                    href="https://github.com/Varunkumar0812/AU-Department-of-Mathematics">Link
+                  </a>
+                  </header>
+                  <footer class="pb-2">
+                    <div class="pb-2 md:pb-4 px-2 md:px-4 text-sm">
+                      A clone of the Department of Mathematics website of Anna University.
+                    </div>
+                  </footer>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="md:w-12 w-full md:h-auto">
+      <nav class="w-full h-full rounded-md">
+        <ul class="p-0 bg-stone-400 h-full md:flex flex-wrap justify-around rounded-r-md">
+          <li id="side-li-1" onclick="displaySection(1)" class="bg-white cursor-pointer w-full flex items-center justify-center md:rounded-tr-md">
+            <a>Education</a>
+          </li>
+          <li id="side-li-2" onclick="displaySection(2)" class="cursor-pointer w-full flex items-center justify-center">
+            <a>Skills</a>
+          </li>
+          <li id="side-li-3" onclick="displaySection(3)" class="cursor-pointer w-full flex items-center justify-center">
+            <a>Experience</a>
+          </li>
+          <li id="side-li-4" onclick="displaySection(4)"
+            class="cursor-pointer w-full flex items-center justify-center md:rounded-br-md">
+            <a>Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <script>
+    var education = document.getElementById("education");
+    var skills = document.getElementById("skills");
+    var experience = document.getElementById("experience");
+    var projects = document.getElementById("projects");
+
+    function allNone() {
+      for (i = 1; i <= 4; i++) {
+        console.log("side-li-" + i);
+        document.getElementById("side-li-" + i).style.backgroundColor =
+          "rgb(168 162 158)";
+      }
+    }
+
+    function displaySection(n) {
+      if (n === 1) {
+        education.style.display = "block";
+        skills.style.display = "none";
+        experience.style.display = "none";
+        projects.style.display = "none";
+        allNone();
+        document.getElementById("side-li-" + n).style.backgroundColor =
+          "white";
+      } else if (n === 2) {
+        education.style.display = "none";
+        skills.style.display = "block";
+        experience.style.display = "none";
+        projects.style.display = "none";
+        allNone();
+        document.getElementById("side-li-" + n).style.backgroundColor =
+          "white";
+      } else if (n === 3) {
+        education.style.display = "none";
+        skills.style.display = "none";
+        experience.style.display = "block";
+        projects.style.display = "none";
+        allNone();
+        document.getElementById("side-li-" + n).style.backgroundColor =
+          "white";
+      } else if (n === 4) {
+        education.style.display = "none";
+        skills.style.display = "none";
+        experience.style.display = "none";
+        projects.style.display = "block";
+        allNone();
+        document.getElementById("side-li-" + n).style.backgroundColor =
+          "white";
+      } 
+    }
+
+    function EducationMore(n) {
+      console.log("varun");
+      var edu = document.getElementById("edu" + n);
+      edu.style.display = edu.style.display === "block" ? "none" : "block";
+    }
+  </script>
+</body>
+
+</html>
