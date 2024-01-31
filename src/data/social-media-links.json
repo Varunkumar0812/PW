@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
   {
     "title": "Linked In",
@@ -17,23 +16,3 @@
     "link": "https://www.hackerrank.com/profile/varunkumarceg"
   }
 ]
-=======
-[
-  {
-    "title": "Linked In",
-    "link": "https://www.linkedin.com/in/varunkumar-r-6252b6240/"
-  },
-  {
-    "title": "Github",
-    "link": "https://github.com/Varunkumar0812"
-  },
-  {
-    "title": "Leetcode",
-    "link": "https://leetcode.com/varunkumarceg/"
-  },
-  {
-    "title": "Hacker Rank",
-    "link": "https://www.hackerrank.com/profile/varunkumarceg"
-  }
-]
->>>>>>> 57d424dfcdf03edd5bf3aa9e7c7135b457611039
