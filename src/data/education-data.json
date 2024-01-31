@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "title": "M.Sc. Integrated Computer Science",
@@ -18,3 +19,25 @@
     "content": "Course Works : Mathematics, Science, Social"
   }
 ]
+=======
+[
+  {
+    "title": "M.Sc. Integrated Computer Science",
+    "institute": "Anna University, Chennai",
+    "score": "CGPA : 9.67 (Until Semester V)",
+    "content": "Course Works : OOP, Data Structures and Algorithms, Operating Systems, Computer Networks, Software Engineering"
+  },
+  {
+    "title": "12th Standard",
+    "institute": "Swaami Vivekanandha School, Chennai",
+    "score": "Score : 95.116%",
+    "content": "Course Works : Mathematics, Physics, Chemistry, Biology"
+  },
+  {
+    "title": "10th Standard",
+    "institute": "Swaami Vivekanandha School, Chennai",
+    "score": "Score : 94.6%",
+    "content": "Course Works : Mathematics, Science, Social"
+  }
+]
+>>>>>>> 57d424dfcdf03edd5bf3aa9e7c7135b457611039
