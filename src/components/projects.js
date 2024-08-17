@@ -13,6 +13,10 @@ import TemperatureConv from "../assests/temperature-convertor.png";
 import TicTacToe from "../assests/tic-tac-toe.png";
 import UserAlbums from "../assests/user-albums-collections.png";
 import GratitudeGrove from "../assests/gratitude-grove.png";
+import EMSystem from "../assests/ems-dashboard-page.png";
+import PersonalFinanceTracker from "../assests/landing-page.png";
+import ThreatronClub from "../assests/threatron-club.png";
+import RMSystem from "../assests/rms-dashboard-page.png";
 
 function Projects() {
   const colorCodes = [
@@ -34,7 +38,7 @@ function Projects() {
     },
     {
       title: "React Js",
-      color: "rgb(26, 163, 242",
+      color: "rgba(8,126,164",
     },
     {
       title: "Node.js",
@@ -84,9 +88,52 @@ function Projects() {
       title: "Pug",
       color: "rgb(1, 103, 117",
     },
+    {
+      title: "Tailwind CSS",
+      color: "rgb(64,189,251",
+    },
+    {
+      title: "Vue JS",
+      color: "rgba(66,184,131",
+    },
+    {
+      title: "Adonis JS",
+      color: "rgba(90,69,255",
+    },
+    {
+      title: "Vuetify",
+      color: "rgba(24,103,192",
+    },
   ];
 
   const projects = [
+    {
+      title: "Review Management System",
+      link: "https://github.com/Varunkumar0812/rms-frontend",
+      photo: RMSystem,
+      content:
+        "Employee Management System was developed as part of the learning process with Vue.js and Adonis JS ",
+      deploymentLink: "",
+      badges: ["Adonis JS", "Vue JS", "Node.js", "MySQL", "Vuetify"],
+    },
+    {
+      title: "Employee Details",
+      link: "https://github.com/Varunkumar0812/employee-details-frontend",
+      photo: EMSystem,
+      content:
+        "Employee Management System was developed as part of the learning process with Vue.js and Adonis JS ",
+      deploymentLink: "https://clever-croissant-a6129b.netlify.app/",
+      badges: ["Adonis JS", "Vue JS", "Node.js", "MySQL", "Vuetify"],
+    },
+    {
+      title: "Personal Finance Tracker",
+      link: "https://github.com/Varunkumar0812/Finance-Tracker-frontend",
+      photo: PersonalFinanceTracker,
+      content:
+        "The Personal Finance Tracker is a simple and intuitive application designed to help users manage their expenses.",
+      deploymentLink: "https://finance-tracker-frontend-blue.vercel.app/",
+      badges: ["React Js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    },
     {
       title: "Campus Hall Booking System",
       link: "https://github.com/Varunkumar0812/hall-booking-frontend",
@@ -94,7 +141,7 @@ function Projects() {
       content:
         "A Full stack hall booking system developed following fundamental software development principles. ",
       deploymentLink: "https://hall-booking-frontend.vercel.app/",
-      badges: ["React Js", "Node.js", "Express", "MongoDB"],
+      badges: ["React Js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     },
     {
       title: "Gratitude Grove",
@@ -103,7 +150,7 @@ function Projects() {
       content:
         "Simple Gratitude Journalling Webapp developed using MERN stack. Still a work in progress.",
       deploymentLink: "",
-      badges: ["React Js", "Node.js", "Express", "MongoDB"],
+      badges: ["React Js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     },
     {
       title: "Natours",
@@ -113,6 +160,15 @@ function Projects() {
         "A full stack tour management system built using Node.js, Express and MongoDB",
       deploymentLink: "https://natours-app-lsi1.onrender.com/",
       badges: ["Node.js", "Express", "MongoDB", "Pug"],
+    },
+    {
+      title: "Threatron Club Webpage",
+      link: "https://github.com/Varunkumar0812/Theatron-Club-SAAS-Task",
+      photo: ThreatronClub,
+      content:
+        "Theatron Club is a single-page website developed as a task assigned by the SAAS TechOps team. ",
+      deploymentLink: "https://elaborate-cupcake-1a2180.netlify.app/",
+      badges: ["React Js", "Tailwind CSS"],
     },
     {
       title: "Dog Breed Identification",

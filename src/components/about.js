@@ -1,10 +1,10 @@
 function About() {
   return (
-    <div className="p-4 sm:p-20">
+    <div className="p-4 sm:p-20 min-h-full flex flex-col justify-center">
       <div className="flex justify-between items-center mb-5">
         <div className="text-4xl font-bold">About </div>
         <a
-          href="https://drive.google.com/file/d/1Y_E1I6QeKWpeqjpAhu50zz2lXQA0HyX7/view?usp=sharing"
+          href="https://drive.google.com/file/d/1n74_yoXjfeqYvntBoIIAELrXmW7BfMDx/view?usp=sharing"
           className="bg-[#BFCFE7] border-4 border-[#0C356A] px-4 py-2 rounded-md hover:scale-[1.05] transition ease-in-out hover:bg-[#00A9FF]"
         >
           My Resume
@@ -17,23 +17,16 @@ function About() {
         the spectrum of web development.
         <br />
         <br />
-        🚀 Proficient in languages like Python, JavaScript, and Java, I've
-        developed quite a few frontend projects and some full-stack projects
-        too, mastering technologies such as React, Node.js, and MongoDB. I
-        constantly practice problem solving on platforms like LeetCode and
-        HackerRank.
+        🚀 Proficient in languages like Python, JavaScript, TypeScript and Java, I've
+        developed many frontend projects and some full-stack projects
+        too, mastering technologies such as React, Vue JS, Adonis JS, Node.js, Express and MongoDB. I
+        constantly practice problem solving on platforms like LeetCode,
+        HackerRank and Geeksforgeeks.
         <br />
         <br />
-        🤖 So far, I have improved my expertise on web development, In the
-        following years I am eager to explore the field of Machine Learning and
-        Artificial Intelligence, I've ventured into building basic ML models and
-        am now hungry for more. From studying fundamental concepts to working
-        with frameworks like TensorFlow and PyTorch, I am trying to delve deep
-        to Artificial Intelligence concepts and technologies.
-        <br />
-        <br />I am actively looking forward for any internship opportunities in
-        Web development or ML & AI to gain some valuable industrial experience.
-        🌐✨
+        🤖 So far, I have improved my expertise on full-stack development, In the
+        following years I am eager to explore other fields like DevOps, Microservices, etc,
+        I am actively learning from the tech community and eager to contribute to some open source projects
       </ul>
     </div>
   );

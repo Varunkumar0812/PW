@@ -5,6 +5,9 @@ import {
   SiReact,
   SiScikitlearn,
   SiTensorflow,
+  SiAdonisjs,
+  SiVuedotjs,
+  SiTypescript
 } from "react-icons/si";
 
 function Technologies() {
@@ -15,6 +18,18 @@ function Technologies() {
     {
       title: "React",
       icon: <SiReact className={iconClassName} />,
+    },
+    {
+      title: "Vue JS",
+      icon: <SiVuedotjs className={iconClassName} />
+    },
+    {
+      title: "TypeScript",
+      icon: <SiTypescript className={iconClassName} />
+    },
+    {
+      title: "Adonis JS",
+      icon: <SiAdonisjs className={iconClassName} />
     },
     {
       title: "Node.js",

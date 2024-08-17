@@ -1,5 +1,6 @@
 import { TbBrandMysql } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 function Databases() {
   const iconClassName =
@@ -14,6 +15,10 @@ function Databases() {
       title: "MongoDB",
       icon: <SiMongodb className={iconClassName} />,
     },
+    , {
+      title: "PostgresSQl",
+      icon: <BiLogoPostgresql className={iconClassName} />
+    }
   ];
 
   const renderedItems = databases.map((item) => {
