@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/PW/static/css/main.0961ddb1.css",
-    "main.js": "/PW/static/js/main.93a8fd50.js",
+    "main.css": "/PW/static/css/main.97e0da93.css",
+    "main.js": "/PW/static/js/main.ec3317cb.js",
     "static/media/etax-consultancy.png": "/PW/static/media/etax-consultancy.1b401b06886429d1df9c.png",
     "static/media/campus-hall-booking.png": "/PW/static/media/campus-hall-booking.de085bdd23ae2eacd529.png",
     "static/media/dept-of-maths.png": "/PW/static/media/dept-of-maths.fc6342d941fe5c859dc5.png",
     "static/media/registration-login-java.png": "/PW/static/media/registration-login-java.08d3f451bc0338618036.png",
     "static/media/natours-app.png": "/PW/static/media/natours-app.c3d34e98b3ce6de333a4.png",
+    "static/media/threatron-club.png": "/PW/static/media/threatron-club.915739354123ff6a6555.png",
+    "static/media/landing-page.png": "/PW/static/media/landing-page.adde79319ecdfbe72799.png",
     "static/media/dog-vision.png": "/PW/static/media/dog-vision.bb2caff494bfd2556255.png",
     "static/media/diabetes-prediction.png": "/PW/static/media/diabetes-prediction.da691f9d8d6197f680e2.png",
     "static/media/user-albums-collections.png": "/PW/static/media/user-albums-collections.ed0e64007585e2c23252.png",
     "static/media/cgpa-calculator.png": "/PW/static/media/cgpa-calculator.994f7da01810d8c8f772.png",
     "static/media/profile-white-bg.png": "/PW/static/media/profile-white-bg.b724422c8e79b0df767a.png",
+    "static/media/ems-dashboard-page.png": "/PW/static/media/ems-dashboard-page.57998e4a0f8220589275.png",
     "static/media/tic-tac-toe.png": "/PW/static/media/tic-tac-toe.7dc325a79dd8ce25a0ff.png",
+    "static/media/rms-dashboard-page.png": "/PW/static/media/rms-dashboard-page.28afe4ca107c2672e022.png",
     "static/media/gratitude-grove.png": "/PW/static/media/gratitude-grove.9676e48f9c9f4a3364cc.png",
     "static/media/signals-representations.png": "/PW/static/media/signals-representations.24d334f9d6fa427bb682.png",
     "static/media/hire-me-app.png": "/PW/static/media/hire-me-app.f9db6944bce0a85f7282.png",
     "static/media/house-prediction.png": "/PW/static/media/house-prediction.27a9d0c6d3c9574a4907.png",
     "static/media/temperature-convertor.png": "/PW/static/media/temperature-convertor.02e0f7ae56e5b9b29b71.png",
     "index.html": "/PW/index.html",
-    "main.0961ddb1.css.map": "/PW/static/css/main.0961ddb1.css.map",
-    "main.93a8fd50.js.map": "/PW/static/js/main.93a8fd50.js.map"
+    "main.97e0da93.css.map": "/PW/static/css/main.97e0da93.css.map",
+    "main.ec3317cb.js.map": "/PW/static/js/main.ec3317cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0961ddb1.css",
-    "static/js/main.93a8fd50.js"
+    "static/css/main.97e0da93.css",
+    "static/js/main.ec3317cb.js"
   ]
 }
