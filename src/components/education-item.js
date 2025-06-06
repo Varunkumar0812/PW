@@ -19,7 +19,7 @@ function EducationItem({ data }) {
   return (
     <li
       onClick={handleClick}
-      className="w-full min-h-20 bg-blue-100 my-2 rounded-lg border-4 border-[#272727] p-5 hover:border-[#00A9FF] cursor-pointer transition ease-in-out duration-200"
+      className="w-full min-h-20 bg-light my-2 rounded-lg border-4 border-medium p-5 hover:border-dark cursor-pointer transition ease-in-out duration-200"
     >
       <div style={styles} className="text-2xl font-semibold mb-2 z-10">
         {data.title}

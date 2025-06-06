@@ -21,11 +21,6 @@ function Languages() {
       level: 90,
     },
     {
-      title: "Java",
-      icon: <FaJava className={iconClassName} />,
-      level: 80,
-    },
-    {
       title: "HTML",
       icon: <FaHtml5 className={iconClassName} />,
       level: 90,

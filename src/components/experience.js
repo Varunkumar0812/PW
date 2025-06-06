@@ -7,21 +7,48 @@ function Experience() {
           <li class="ms-4">
             <div class="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white"></div>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              July 2024 - Present
+              July 2024 - December 2024
             </time>
             <h3 class="text-xl font-bold text-gray-900 dark:text-white">
-              SDE Internship
+              SDE Intern
             </h3>
             <p class="mb-2 text-base font-semibold text-gray-500 dark:text-gray-400">
               NGP Websmart
             </p>
             <p class="mb-4 text-base dark:text-gray-400">
-              <strong>Summary : </strong>
+              <strong>About the company : </strong>
               <br />
-              Software Development Internship
+              NGP Websmart is the R&D division of Northern Gas and Power — a
+              global energy procurement specialist operating across Europe.
+              <br />
+              <br />
+              <strong>Key Contributions: </strong>
+              <ul className="list-disc pl-8">
+                <li>
+                  Completed structured training in Git, Linux, SQL, JavaScript,
+                  AdonisJS, Vue.js, and PostgreSQL.
+                </li>
+                <li>
+                  Collaborated with a team to develop a comprehensive
+                  Performance Management application.
+                </li>
+                <li>
+                  Designed UI mockups using Figma and developed the frontend
+                  using Vue.js, Vuetify, and Pinia.
+                </li>
+                <li>
+                  Integrated frontend with backend APIs and built interactive
+                  tutorials for the application.
+                </li>
+                <li>
+                  Gained hands-on experience in end-to-end project development,
+                  version control, and agile practices.
+                </li>
+              </ul>
               <br />
               <strong>Skills Acquired : </strong>
-              <br /> Expertise in Adonis JS, Vue JS, Business Communications and many.
+              <br /> AdonisJS, Vue.js, PostgreSQL, UI/UX Design, Team
+              Collaboration, Communication
             </p>
           </li>
           <li class="ms-4">

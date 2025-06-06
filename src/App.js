@@ -23,8 +23,8 @@ function App() {
   };
 
   return (
-    <div className="p-2 md:p-5 w-[100vw] h-[100vh] cursor-default bg-[#272727]">
-      <div className="bg-white h-full w-full rounded-md flex flex-col md:flex-row rounded-r-lg">
+    <div className="p-0 w-[100vw] h-[100vh] cursor-default bg-[#272727]">
+      <div className="bg-white h-full w-full flex flex-col md:flex-row">
         <ProfileBar />
         <div className="w-full h-auto md:h-full md:overflow-auto bg-white">
           {items[selectedItem].content}

@@ -17,6 +17,7 @@ import EMSystem from "../assests/ems-dashboard-page.png";
 import PersonalFinanceTracker from "../assests/landing-page.png";
 import ThreatronClub from "../assests/threatron-club.png";
 import RMSystem from "../assests/rms-dashboard-page.png";
+import AIASULP from "../assests/ai-asulp.png";
 
 function Projects() {
   const colorCodes = [
@@ -104,9 +105,26 @@ function Projects() {
       title: "Vuetify",
       color: "rgba(24,103,192",
     },
+    {
+      title: "FastAPI",
+      color: "rgba(24,103,104",
+    },
+    {
+      title: "Gemini AI",
+      color: "rgba(183, 91, 29",
+    },
   ];
 
   const projects = [
+    {
+      title: "AI-Assisted Student University Learning Platform",
+      link: "https://github.com/Varunkumar0812/AASULP-frontend",
+      photo: AIASULP,
+      content:
+        "An AI powered Student University Learning Platform that provides a comprehensive set of tools and resources to enhance the learning experience for students.",
+      deploymentLink: "",
+      badges: ["FastAPI", "React Js", "Gemini AI", "Tailwind CSS"],
+    },
     {
       title: "Review Management System",
       link: "https://github.com/Varunkumar0812/rms-frontend",

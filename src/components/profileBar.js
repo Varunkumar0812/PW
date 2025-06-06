@@ -1,16 +1,17 @@
 import Profile from "../assests/profile-white-bg.png";
 import ProfileData from "../data/profile-data.json";
 import SocialMediaLinks from "./social-media";
+import VarunProfile from "../assests/varun-profile.png";
 
 function ProfileBar() {
   return (
-    <div className="w-full md:w-[450px] h-full rounded-t-md md:rounded-tr-none md:rounded-l-md bg-[#00A9FF]">
-      <div className="w-full h-full rounded-t-md md:rounded-tr-none md:rounded-l-md px-2 py-5 overflow-auto cursor-default">
+    <div className="w-full md:w-[450px] h-full bg-medium">
+      <div className="flex flex-col items-center justify-center w-full h-full px-2 py-5 overflow-auto cursor-default">
         <div className="flex justify-center">
           <img
-            src={Profile}
+            src={VarunProfile}
             alt="my-face"
-            className="w-60 h-80 rounded-md shadow-lg hover:shadow-2xl hover:scale-[1.01] transition ease-in-out"
+            className="w-60 h-72 rounded-md shadow-lg hover:shadow-2xl hover:scale-[1.01] transition ease-in-out"
           />
         </div>
         <div className="text-center mt-6">

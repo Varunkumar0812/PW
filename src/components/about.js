@@ -4,29 +4,35 @@ function About() {
       <div className="flex justify-between items-center mb-5">
         <div className="text-4xl font-bold">About </div>
         <a
-          href="https://drive.google.com/file/d/1n74_yoXjfeqYvntBoIIAELrXmW7BfMDx/view?usp=sharing"
-          className="bg-[#BFCFE7] border-4 border-[#0C356A] px-4 py-2 rounded-md hover:scale-[1.05] transition ease-in-out hover:bg-[#00A9FF]"
+          href="https://drive.google.com/file/d/1RTI8EfS1noAkvJmeQL114N4iQTsItOEg/view?usp=sharing"
+          className="bg-light border-4 border-medium px-4 py-2 rounded-md hover:scale-[1.05] transition ease-in-out hover:bg-dark hover:text-white"
         >
           My Resume
         </a>
       </div>
       <ul className="flex flex-col text-sm md:text-lg text-justify pt-5">
-        👋 Hello! I'm Varunkumar R, a Computer Science student at Anna
-        University, Chennai. With a strong foundation in problem-solving and a
-        knack for creative development, I've worked on diverse projects across
-        the spectrum of web development.
+        👋 Hi, I’m Varunkumar R, a Computer Science major from Chennai 🇮🇳 with 2
+        years of experience in software development. I have worked on a wide
+        range of development projects and completed a 6-month Software
+        Development Internship at NGP Websmart 💻, where I honed my skills in
+        building scalable and user-friendly applications.
         <br />
         <br />
-        🚀 Proficient in languages like Python, JavaScript, TypeScript and Java, I've
-        developed many frontend projects and some full-stack projects
-        too, mastering technologies such as React, Vue JS, Adonis JS, Node.js, Express and MongoDB. I
-        constantly practice problem solving on platforms like LeetCode,
-        HackerRank and Geeksforgeeks.
+        I’m a highly organized and detail-oriented individual 🗂️ — I plan and
+        structure every task I take on, ensuring timely and high-quality
+        delivery ✅. I take pride in my work and always strive to achieve
+        excellence ✨ in every project.
         <br />
         <br />
-        🤖 So far, I have improved my expertise on full-stack development, In the
-        following years I am eager to explore other fields like DevOps, Microservices, etc,
-        I am actively learning from the tech community and eager to contribute to some open source projects
+        Beyond my professional experience, I am passionate about continuous
+        learning 📚 and constantly explore emerging trends 🚀 and technologies
+        in the field. I am always ready to take on new challenges 🎯 and enjoy
+        solving complex problems through innovative solutions 💡.
+        <br />
+        <br />
+        Whether working independently 🧑‍💻 or collaborating within a team 🤝, I
+        bring a positive mindset, strong work ethic 💪, and a drive to
+        contribute meaningfully to any project.
       </ul>
     </div>
   );
