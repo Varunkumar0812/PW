@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/PW/static/css/main.97e0da93.css",
-    "main.js": "/PW/static/js/main.ec3317cb.js",
+    "main.css": "/PW/static/css/main.34778721.css",
+    "main.js": "/PW/static/js/main.9a8fceb1.js",
+    "static/media/varun-profile.png": "/PW/static/media/varun-profile.eace46aafac8a5be545c.png",
     "static/media/etax-consultancy.png": "/PW/static/media/etax-consultancy.1b401b06886429d1df9c.png",
     "static/media/campus-hall-booking.png": "/PW/static/media/campus-hall-booking.de085bdd23ae2eacd529.png",
     "static/media/dept-of-maths.png": "/PW/static/media/dept-of-maths.fc6342d941fe5c859dc5.png",
@@ -19,15 +20,16 @@
     "static/media/rms-dashboard-page.png": "/PW/static/media/rms-dashboard-page.28afe4ca107c2672e022.png",
     "static/media/gratitude-grove.png": "/PW/static/media/gratitude-grove.9676e48f9c9f4a3364cc.png",
     "static/media/signals-representations.png": "/PW/static/media/signals-representations.24d334f9d6fa427bb682.png",
+    "static/media/ai-asulp.png": "/PW/static/media/ai-asulp.86dfacfd3bf7c0ad2c7b.png",
     "static/media/hire-me-app.png": "/PW/static/media/hire-me-app.f9db6944bce0a85f7282.png",
     "static/media/house-prediction.png": "/PW/static/media/house-prediction.27a9d0c6d3c9574a4907.png",
     "static/media/temperature-convertor.png": "/PW/static/media/temperature-convertor.02e0f7ae56e5b9b29b71.png",
     "index.html": "/PW/index.html",
-    "main.97e0da93.css.map": "/PW/static/css/main.97e0da93.css.map",
-    "main.ec3317cb.js.map": "/PW/static/js/main.ec3317cb.js.map"
+    "main.34778721.css.map": "/PW/static/css/main.34778721.css.map",
+    "main.9a8fceb1.js.map": "/PW/static/js/main.9a8fceb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.97e0da93.css",
-    "static/js/main.ec3317cb.js"
+    "static/css/main.34778721.css",
+    "static/js/main.9a8fceb1.js"
   ]
 }
