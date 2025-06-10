@@ -4,7 +4,7 @@ function About() {
       <div className="flex justify-between items-center mb-5">
         <div className="text-4xl font-bold">About </div>
         <a
-          href="https://drive.google.com/file/d/1RTI8EfS1noAkvJmeQL114N4iQTsItOEg/view?usp=sharing"
+          href="https://drive.google.com/file/d/1cY6u2hfK9LtbyaaurTBJgdmhHvkrU-Ky/view?usp=sharing"
           className="bg-light border-4 border-medium px-4 py-2 rounded-md hover:scale-[1.05] transition ease-in-out hover:bg-dark hover:text-white"
         >
           My Resume
