@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PW/static/css/main.34778721.css",
-    "main.js": "/PW/static/js/main.9a8fceb1.js",
+    "main.js": "/PW/static/js/main.90eea8af.js",
     "static/media/varun-profile.png": "/PW/static/media/varun-profile.eace46aafac8a5be545c.png",
     "static/media/etax-consultancy.png": "/PW/static/media/etax-consultancy.1b401b06886429d1df9c.png",
     "static/media/campus-hall-booking.png": "/PW/static/media/campus-hall-booking.de085bdd23ae2eacd529.png",
@@ -26,10 +26,10 @@
     "static/media/temperature-convertor.png": "/PW/static/media/temperature-convertor.02e0f7ae56e5b9b29b71.png",
     "index.html": "/PW/index.html",
     "main.34778721.css.map": "/PW/static/css/main.34778721.css.map",
-    "main.9a8fceb1.js.map": "/PW/static/js/main.9a8fceb1.js.map"
+    "main.90eea8af.js.map": "/PW/static/js/main.90eea8af.js.map"
   },
   "entrypoints": [
     "static/css/main.34778721.css",
-    "static/js/main.9a8fceb1.js"
+    "static/js/main.90eea8af.js"
   ]
 }
